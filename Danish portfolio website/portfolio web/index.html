@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sayed Danish Hussain — Front-End Web Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Sayed Danish Hussain, a front-end web developer building responsive websites with HTML, CSS, Bootstrap and JavaScript.">
+  <meta property="og:title" content="Sayed Danish Hussain — Front-End Web Developer">
+  <meta property="og:description" content="Responsive, user-friendly websites built with HTML, CSS, Bootstrap and JavaScript. See projects, skills and education.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Playfair+Display:ital,wght@1,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-text">Danish <span class="accent">/</span> Portfolio</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-dot" aria-hidden="true"></div>
+    </div>
+  </nav>
+
+  <!-- My Profile -->
+  <header id="home" class="profile">
+    <div class="container hero-grid">
+      <div class="hero-image-wrapper">
+        <img src="images/portrait.jpeg" alt="Portrait of Sayed Danish Hussain" class="hero-image" width="800" height="600">
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow"> Front-End Developer</p>
+        <h1 class="hero-title">
+          SAYED DANISH<br>
+          <span class="serif accent">Hussain</span>
+        </h1>
+        <p class="hero-lead">Computer Science student building responsive, user-friendly websites with modern web technologies.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Contact Me</a>
+          <a href="#projects" class="btn btn-outline">View My Work</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container">
+      <p class="eyebrow eyebrow-muted"> About Me</p>
+      <div class="about-grid">
+        <h2 class="about-title">Learning by building, one real project at a time.</h2>
+        <div class="about-body">
+          <p>I am a Computer Science student passionate about web development. I enjoy turning clean layouts into working, responsive pages and I am currently deepening my skills in Bootstrap and JavaScript while building real-world projects for practice and for clients.</p>
+          <p>My goal is to grow into a full-stack developer who writes accessible, maintainable code and delivers interfaces that feel effortless on every screen size.</p>
+          <a href="#contact" class="text-link">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <p class="eyebrow"> Skills</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>HTML5</h3>
+          <p class="mono-note">Semantic, accessible markup</p>
+        </div>
+        <div class="skill-card">
+          <h3>CSS3</h3>
+          <p class="mono-note">Flexbox, Grid, animations</p>
+        </div>
+        <div class="skill-card">
+          <h3>Bootstrap 5</h3>
+          <p class="mono-note">Grid, cards, navbars, forms</p>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <p class="mono-note">DOM, ES6, fetch & APIs</p>
+        </div>
+        <div class="skill-card">
+          <h3>Git & GitHub</h3>
+          <p class="mono-note">Version control, collaboration</p>
+        </div>
+        <div class="skill-card">
+          <h3>Responsive Design</h3>
+          <p class="mono-note">Mobile, tablet, laptop</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <p class="eyebrow"> Selected Works</p>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image-wrapper">
+            <img src="images/project-1.jpg" alt="Business Landing project preview" class="project-image" width="800" height="600" loading="lazy">
+          </div>
+          <div class="project-meta">
+            <div class="project-info">
+              <h3>Business Landing</h3>
+              <p class="mono-note">Bootstrap • 2026</p>
+              <p class="project-desc">A responsive landing page for a small business, built on the Bootstrap grid.</p>
+            </div>
+            <a href="#" class="project-arrow" aria-label="View Business Landing">
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image-wrapper">
+            <img src="images/project-2.jpg" alt="Shopline Store project preview" class="project-image" width="800" height="600" loading="lazy">
+          </div>
+          <div class="project-meta">
+            <div class="project-info">
+              <h3>Shopline Store</h3>
+              <p class="mono-note">Bootstrap + JS • 2025</p>
+              <p class="project-desc">An e-commerce front-end with product cards, filters and a cart modal.</p>
+            </div>
+            <a href="#" class="project-arrow" aria-label="View Shopline Store">
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image-wrapper">
+            <img src="images/project-3.jpg" alt="Frame Gallery project preview" class="project-image" width="800" height="600" loading="lazy">
+          </div>
+          <div class="project-meta">
+            <div class="project-info">
+              <h3>Frame Gallery</h3>
+              <p class="mono-note">HTML / CSS • 2025</p>
+              <p class="project-desc">A photography portfolio with a masonry gallery and lightbox previews.</p>
+            </div>
+            <a href="#" class="project-arrow" aria-label="View Frame Gallery">
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="education">
+    <div class="container">
+      <p class="eyebrow"> Education</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          
+          
+        
+          
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <span class="timeline-years">2025 — still continue</span>
+          <h3>Higher Secondary (Intermediate in Computer Science)</h3>
+          <p class="mono-note">Government College Management Of Sciences Parachinar</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <span class="timeline-years">2022 — 2025</span>
+          <h3>Secondary School Certificate</h3>
+          <p class="mono-note">P I P S Parachinar</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <p class="eyebrow">       Contact</p>
+      <div class="contact-grid">
+        <h2 class="contact-title">
+          Have a project in mind?<br>
+          <span class="serif accent">Let’s talk.</span>
+        </h2>
+        <form class="contact-form" id="contactForm" action="#" method="POST">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-success" id="formSuccess" role="status" aria-live="polite">Thanks — your message has been sent.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand serif">Sayed Danish Hussain</div>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Email</a></li>
+      </ul>
+      <p class="copyright">© 2026 Sayed Danish Hussain. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('formSuccess').classList.add('visible');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
